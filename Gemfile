@@ -13,8 +13,11 @@ group :development, :test do
   gem 'launchy'
   gem 'rspec-rails'
   gem 'simplecov'
-  gem "capistrano", "~> 3.4"
 end
+
+gem 'capistrano', '~> 3'
+gem 'capistrano-rails', '~> 1'
+gem 'capistrano-chruby'
 
 ruby '2.2.4'
 gem 'rails', '3.2.18'
